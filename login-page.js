@@ -9,7 +9,8 @@ loginButton.addEventListener("click", (e) => {
 
     if (username === "Tom Micheal" && password === "123456789") {
         alert("You have successfully logged in.");
-        location.reload();
+        // location.reload();
+        window.location.href = "success.html";
     } else {
         loginErrorMsg.style.opacity = 1;
     }
